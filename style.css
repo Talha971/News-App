@@ -2,15 +2,14 @@ h1 {
   text-align: center;
   color: white;
 }
+.d1 {
+  height: 450px !important;
+}
 #input_div {
   text-align: center;
 }
 img {
-  height: 275px;
-}
-.d1 {
-  height: 600px !important;
-  overflow: hidden;
+  height: 200px;
 }
 button {
   background-color: green;
@@ -36,7 +35,7 @@ button {
 }
 @media (max-width: 768px) {
   .d1 {
-    height: 150px !important;
+    height: 200px !important;
   }
   img {
     height: 100px;
@@ -47,4 +46,20 @@ button {
   p {
     font-size: 8px;
   }
+}
+
+@media (max-width: 540px) {
+  .d1 {
+    height: 125px !important;
+  }
+  img {
+    height: 50px;
+  }
+  h5 {
+    font-size: 6.5px;
+  }
+  p {
+    font-size: 5px;
+  }
+  margin-bottom: 20px;
 }
